@@ -1,0 +1,12 @@
+// -- to prepare environment
+npm i -g angular-cli-ghpages
+
+
+// --------------- to build and deploy
+//ng build --prod --base-href "https://DariuszPietka.github.io/Angular1/"
+ng build --prod --base-href=/hello-world/
+ngh --dir dist/hello-world
+
+
+// -------------------------------  to run the app
+https://DariuszPietka.github.io/Angular1/
